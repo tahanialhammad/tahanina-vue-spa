@@ -3,17 +3,17 @@
         <template #header>
             <Hero :features="features">
                 <template #heroTitle>
-                    Tahanina Freelance
-                </template>
+                    "Beheer, plan, klaar..."
+                                </template>
                 <template #heroTitle2>
-                    Webdeveloper in Groningen
+                    Welkom bij Evenatora – Jouw hub voor evenementen!
                 </template>
                 <template #heroDescription>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit
                     eaque, iste dolor cupiditate blanditiis ratione.
                 </template>
                 <template #heroImage>
-                    <img src="assests/acleanmaster2.png"
+                    <img src="assests/hero.jpg"
                         alt="Product screenshot"
                         class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
                         width="2432" height="1442" />
@@ -37,24 +37,24 @@
 import AppLayout from '@/Layouts/AppLayout.vue';
 import Welcome from '@/Components/Welcome.vue';
 import Hero from '@/Components/Hero.vue';
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/solid'
+import { CloudArrowUpIcon, TicketIcon, CurrencyEuroIcon } from '@heroicons/vue/20/solid'
 
 const features = [
     {
-        name: 'Push to deploy.',
+        name: 'Eenvoudig Evenementbeheer',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'SSL certificates.',
+        name: 'Snelle Registratie en Digitale Tickets',
         description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-        icon: LockClosedIcon,
+        icon: TicketIcon,
     },
     {
-        name: 'Database backups.',
+        name: 'Realtime Statistieken en Betalingsbeheer',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: ServerIcon,
+        icon: CurrencyEuroIcon,
     },
 ]
 </script>
